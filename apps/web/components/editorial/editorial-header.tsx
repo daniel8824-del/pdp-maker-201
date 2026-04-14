@@ -26,7 +26,7 @@ export function EditorialHeader() {
     <header className="sticky top-0 z-40 border-b border-white/30 bg-[rgba(248,244,236,0.82)] backdrop-blur-xl">
       <div className="container flex h-20 items-center justify-between">
         <Link className="font-serif text-2xl tracking-[0.14em] text-foreground" href="/editorial-home">
-          HANIRUM
+          EDITORIAL
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm text-muted md:flex">
@@ -73,7 +73,7 @@ export function EditorialHeader() {
           </SheetTrigger>
           <SheetContent side="right">
             <SheetHeader>
-              <SheetTitle>HANIRUM</SheetTitle>
+              <SheetTitle>EDITORIAL</SheetTitle>
               <SheetDescription>조용한 문장과 오래 남는 독서를 위한 프리미엄 에디토리얼 랜딩 샘플</SheetDescription>
             </SheetHeader>
             <div className="mt-10 grid gap-3">

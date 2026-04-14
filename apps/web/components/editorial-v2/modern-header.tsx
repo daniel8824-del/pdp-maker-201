@@ -26,7 +26,7 @@ export function ModernHeader() {
     <header className="sticky top-0 z-40 border-b border-black/5 bg-[rgba(249,245,238,0.82)] backdrop-blur-xl">
       <div className="container flex h-20 items-center justify-between">
         <Link className="text-lg font-semibold tracking-[-0.04em] text-[#111111]" href="/editorial-home">
-          HANIRUM
+          EDITORIAL
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm font-medium text-[#6a6a64] md:flex">
@@ -73,7 +73,7 @@ export function ModernHeader() {
           </SheetTrigger>
           <SheetContent side="right">
             <SheetHeader>
-              <SheetTitle className="font-sans text-[1.5rem] font-semibold tracking-[-0.04em]">HANIRUM</SheetTitle>
+              <SheetTitle className="font-sans text-[1.5rem] font-semibold tracking-[-0.04em]">EDITORIAL</SheetTitle>
               <SheetDescription>
                 Pretendard 기반의 현대적이고 정제된 프리미엄 홈 랜딩 샘플입니다.
               </SheetDescription>

@@ -136,7 +136,7 @@ export function PdpSettingsSheet({
             </label>
 
             <p className={styles.settingsHelper}>
-              개인 키는 Git에 포함되지 않고, 이 브라우저 localStorage에만 저장됩니다. 저장 전에 Gemini 3.1 Pro Preview와 Gemini 3 Pro Image Preview 접근 가능 여부를 먼저 확인합니다.
+              개인 키는 Git에 포함되지 않고, 이 브라우저 localStorage에만 저장됩니다. 저장 전에 Gemini 2.5 Flash와 Gemini 3.1 Flash Image (Nano Banana 2) 접근 가능 여부를 먼저 확인합니다.
             </p>
 
             {errorMessage ? <div className={styles.settingsError}>{errorMessage}</div> : null}

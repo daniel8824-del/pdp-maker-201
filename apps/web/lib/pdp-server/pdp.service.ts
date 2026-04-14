@@ -1,4 +1,4 @@
-import { GoogleGenAI, ThinkingLevel, Type } from "@google/genai";
+import { GoogleGenAI, Type } from "@google/genai";
 import type {
   AspectRatio,
   ImageGenOptions,
@@ -9,8 +9,8 @@ import type {
   SectionBlueprint
 } from "../shared";
 
-const ANALYZE_MODEL = "gemini-3.1-pro-preview";
-const IMAGE_MODEL = "gemini-3-pro-image-preview";
+const ANALYZE_MODEL = "gemini-2.5-flash";
+const IMAGE_MODEL = "gemini-3.1-flash-image-preview";
 const DEFAULT_IMAGE_MIME = "image/jpeg";
 const REFERENCE_MODEL_MAX_ATTEMPTS = 3;
 
@@ -123,7 +123,7 @@ export class PdpService {
           }
         ] as any,
         config: {
-          thinkingConfig: { thinkingLevel: ThinkingLevel.LOW },
+
           responseMimeType: "application/json",
           responseSchema: {
             type: Type.OBJECT,
@@ -433,7 +433,6 @@ export class PdpService {
         }
       ] as any,
       config: {
-        thinkingConfig: { thinkingLevel: ThinkingLevel.LOW },
         responseMimeType: "application/json",
         responseSchema: {
           type: Type.OBJECT,
@@ -490,7 +489,6 @@ export class PdpService {
         }
       ] as any,
       config: {
-        thinkingConfig: { thinkingLevel: ThinkingLevel.LOW },
         responseMimeType: "application/json",
         responseSchema: {
           type: Type.OBJECT,

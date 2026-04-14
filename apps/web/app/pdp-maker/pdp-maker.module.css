@@ -268,8 +268,9 @@
 .noticeMetaItem strong,
 .metaItem strong,
 .metricCard strong {
-  font-size: 18px;
+  font-size: 15px;
   color: var(--ink);
+  word-break: keep-all;
 }
 
 .statusCard small,
@@ -852,6 +853,7 @@
 .settingsSheet {
   width: min(100%, 440px);
   padding: 28px 24px 24px;
+  overflow-y: auto;
 }
 
 .settingsSheetHeader {
@@ -945,10 +947,13 @@
 
 .settingsKeyPreview code {
   font-family: var(--font-sans);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--ink);
-  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
 }
 
 .settingsStatusList {
@@ -957,8 +962,8 @@
 }
 
 .settingsStatusRow {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   align-items: center;
   padding: 12px 14px;
@@ -968,10 +973,18 @@
   color: var(--muted);
 }
 
+.settingsStatusRow span {
+  white-space: nowrap;
+}
+
 .settingsStatusRow strong {
   color: var(--ink);
   font-size: 13px;
   font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
 }
 
 .settingsModeGrid {

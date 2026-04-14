@@ -465,7 +465,7 @@ export function PdpMakerClient() {
           <div className={styles.toolHeaderCopy}>
             <h1 className={styles.toolTitle}>
               <button className={styles.brandHomeButton} onClick={() => void handleGoToMain()} type="button">
-                한이룸의 상세페이지 마법사 2.0
+                상세페이지 마법사 2.0
               </button>
             </h1>
           </div>
