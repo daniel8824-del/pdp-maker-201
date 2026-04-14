@@ -2,22 +2,12 @@
 
 상품 이미지만 올리면 AI가 상세페이지를 자동으로 만들어주는 웹앱입니다.
 
-## 구조
-
-| 폴더 | 역할 |
-|------|------|
-| `apps/web` | Next.js 14 UI + API (포트 3000) |
-| `packages/shared` | 공통 타입 정의 |
-
 ## 실행
 
 ```bash
 pnpm install
 pnpm --filter @runacademy/web dev
 ```
-
-- 홈: http://localhost:3000/
-- PDP Maker: http://localhost:3000/pdp-maker
 
 ## 사용 모델
 
