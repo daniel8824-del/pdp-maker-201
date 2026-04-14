@@ -12,7 +12,7 @@ pnpm --filter @runacademy/web dev
 ## 사용 모델
 
 - 분석: `gemini-2.5-flash`
-- 이미지 생성: `gemini-3.1-flash-image-preview` (Nano Banana 2)
+- 이미지 생성: `gemini-2.5-flash-image` (Nano Banana)
 
 ## 기능
 

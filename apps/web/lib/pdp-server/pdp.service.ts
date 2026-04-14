@@ -10,7 +10,7 @@ import type {
 } from "../shared";
 
 const ANALYZE_MODEL = "gemini-2.5-flash";
-const IMAGE_MODEL = "gemini-3.1-flash-image-preview";
+const IMAGE_MODEL = "gemini-2.5-flash-image";
 const DEFAULT_IMAGE_MIME = "image/jpeg";
 const REFERENCE_MODEL_MAX_ATTEMPTS = 3;
 
